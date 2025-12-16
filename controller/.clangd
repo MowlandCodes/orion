@@ -1,0 +1,12 @@
+CompileFlags:
+  Add:
+    [
+      --sysroot=/home/mowlandcodes/.espressif/tools/esp-clang/esp-19.1.2_20250312/esp-clang/,
+    ]
+  Remove:
+    [
+      -fno-tree-switch-conversion,
+      -mtext-section-literals,
+      -mlongcalls,
+      -fstrict-volatile-bitfields,
+    ]
