@@ -1,0 +1,20 @@
+ROBOT_RADIUS = 0.20
+
+WHEEL_RADIUS = 0.05
+
+# camera 1 (webcam)
+CAM1_HEIGHT = 0.30
+CAM1_TILT = 0.0
+CAM_FOV_H = 60.0
+
+# camera 2 (fisheye)
+CAM2_HEIGHT = 0.65
+CAM2_TILT = -90.0
+
+FISHEYE_K = [[...]]
+FISHEYE_D = [[...]]
+
+MAX_SPEED_MPS = 1.5
+MAX_ROT_SPEED = 3.14
+
+WHEEL_CIRCUMFERENCE = 2 * 3.14159 * WHEEL_RADIUS
